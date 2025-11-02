@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Award } from 'lucide-react';
-import HelloKittyImg from '../images/hellokitty.gif'; // Add this import (adjust path if needed)
+import HelloKittyImg from '/static/images/hellokitty.gif'; // Add this import (adjust path if needed)
 
 interface HeartCatcherGameProps {
   onComplete: () => void;

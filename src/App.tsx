@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Music, Music as MusicOff, X, Mail } from 'lucide-react';
 import Musicc from '/music.mp3';
-import Img1 from './images/pic1.jpg';
-import Img2 from './images/pic2.jpg';
-import Img3 from './images/pic3.jpg';
+import Img1 from '/static/images/pic1.jpg';
+import Img2 from '/static/images/pic2.jpg';
+import Img3 from '/static/images/pic3.jpg';
 import ScrollReveal from './components/ScrollReveal';
 import HeartCatcherGame from './components/HeartCatcherGame';
-import EnvelopeGif from './images/intro.gif'; // Add this import for your GIF
+import EnvelopeGif from '/static/images/intro.gif'; // Add this import for your GIF
 
 // StickyNote component for comic-style sticky notes with a wiggle effect
 const StickyNote = ({ text, style, delay = 0 }) => (
