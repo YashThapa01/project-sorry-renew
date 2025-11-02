@@ -1,14 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Music, Music as MusicOff, X, Mail } from 'lucide-react';
+import ScrollReveal from './components/ScrollReveal';
+import HeartCatcherGame from './components/HeartCatcherGame';
+
+// Public folder assets - use const, NOT import
 const Musicc = '/music.mp3';
 const Img1 = '/static/images/pic1.jpg';
 const Img2 = '/static/images/pic2.jpg';
 const Img3 = '/static/images/pic3.jpg';
 const EnvelopeGif = '/static/images/intro.gif';
-import ScrollReveal from './components/ScrollReveal';
-import HeartCatcherGame from './components/HeartCatcherGame';
-import EnvelopeGif from '/static/images/intro.gif'; // Add this import for your GIF
+
+// StickyNote component for comic-style sticky notes with a wiggle effect
+const StickyNote = ({ text, style, delay = 0 }) => ( // Add this import for your GIF
 
 // StickyNote component for comic-style sticky notes with a wiggle effect
 const StickyNote = ({ text, style, delay = 0 }) => (
